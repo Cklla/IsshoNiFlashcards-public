@@ -1,0 +1,11 @@
+Les données à caractère personnel collectées par les sites Issho Ni et Issho Ni Boutique sont les suivantes :
+
+- Nom      
+- Prénom(s)        
+- Adresse mail   
+- Adresse postale          
+- Coordonnées bancaires        
+- Toute autre information inhérentes à l'exercice d'une prestation         
+- Informations automatiquement enregistrées de votre ordinateur, comme l'adresse IP par exemple
+
+L'application mobile Issho Ni ne collecte aucune donnée à caractère personnel tant que l'utilisateur est déconnecté. S'il se connecte via son compte Issho Ni, toutes les données seront alors les mêmes que citées ci-dessus et passeront par le site. Pour la connexion, l'application générera un token sécurisé de connexion au moyen de l'identifiant et du mot de passe de l'utilisateur. Ceci permettant de vérifier l'avancement de l'utilisateur dans son apprentissage afin de lui donner accès aux bons decks de cartes.
