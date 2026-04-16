@@ -3,7 +3,7 @@
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![Licence propriétaire](https://img.shields.io/badge/Licence-Propriétaire-red?style=for-the-badge)
+![Licence propriétaire](https://img.shields.io/badge/Licence-Propri%C3%A9taire-red?style=for-the-badge)
 
 Application Android d'apprentissage et de révision du vocabulaire japonais, conçue pour les élèves de la formation **Issho Ni**. Elle propose un système de flashcards bilingue (français ↔ japonais) avec suivi de progression, listes personnalisées et synchronisation entre appareils.
 
@@ -38,6 +38,20 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 
 ---
 
+## 🎴 Retournement de carte
+
+
+![Retournement de carte](screenshots/gif_flashcard_flip.gif)
+
+---
+
+## 🌸 Animation sakura
+
+
+![Animation sakura](screenshots/gif_sakura.gif)
+
+---
+
 ## 🛠️ Stack technique
 
 | Composant | Technologie |
@@ -66,9 +80,9 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 app/src/main/java/com/isshoni/flashcards/
 │
 ├── data/
-│   ├── local/                          # Base de données Room
-│   ├── remote/                         # API Retrofit
-│   └── repository/                     # Couche données
+│   ├── local/                          # Entités Room, DAOs, Database
+│   ├── remote/                         # API Retrofit, DTOs
+│   └── repository/                     # Source unique de vérité, gestion offline/online
 │       
 ├── ui/
 │   ├── components/
