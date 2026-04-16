@@ -15,7 +15,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 
 | Accueil | Session de cartes | Mes listes |
 |---|---|---|
-| ![Accueil](screenshots/screen_welcome.png) | ![Session](screenshots/screen_flashcard.png) | ![Listes](screenshots/screen_home.png) |
+| ![Accueil]<img src="screenshots/screen_welcome.png" width="220">) | ![Session]<img src="screenshots/screen_flashcard.png" width="220">) | ![Listes]img src="screenshots/screen_home.png" width="220">) |
 
 ---
 
