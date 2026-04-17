@@ -63,6 +63,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 | Réseau | Retrofit 3.0.0 + OkHttp + Gson |
 | Stockage sécurisé | AndroidX Security Crypto 1.1.0-alpha06 (EncryptedSharedPreferences) |
 | Préférences | DataStore Preferences 1.1.4 |
+| Chargement d'images | Coil 3.2.0 (coil-compose + coil-network-okhttp) |
 | Synthèse vocale | Android TTS natif |
 | Drag & drop | Reorderable 2.4.3 |
 | Tests | JUnit 4, MockK, kotlinx-coroutines-test |
