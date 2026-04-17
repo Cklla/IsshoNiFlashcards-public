@@ -5,7 +5,7 @@
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Licence propriétaire](https://img.shields.io/badge/Licence-Propri%C3%A9taire-red?style=for-the-badge)
 
-Application Android d'apprentissage et de révision du vocabulaire japonais, conçue pour les élèves de la formation **Issho Ni**. Elle propose un système de flashcards bilingue (français ↔ japonais) avec suivi de progression, listes personnalisées et synchronisation entre appareils.
+Application Android d'apprentissage et de révision du vocabulaire japonais, conçue pour les élèves de la formation **Issho Ni**. Elle propose un système de flashcards bilingues (français ↔ japonais) avec suivi de progression, listes personnalisées et synchronisation entre appareils.
 
 Une partie du contenu est librement accessible. L'accès aux modules de formation et à la synchronisation de progression nécessite d'être élève Issho Ni.
 
