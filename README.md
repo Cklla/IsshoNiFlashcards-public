@@ -24,7 +24,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 ### Accessible sans compte
 - **Listes par défaut** : hiragana, katakana, combinaisons, animaux, couleurs, visage, corps, sports (plus de 400 cartes incluses)
 - **Listes personnalisées** : créer, renommer, supprimer, réordonner ses propres listes par glisser-déposer
-- **Cartes personnalisées** : ajouter français, kana, kanji et une phrase exemple
+- **Cartes personnalisées** : ajouter français, kana, kanji, une phrase exemple et une image
 - **Sessions de révision** : choix du sens (FR→JP ou JP→FR), animation de retournement de carte
 - **Piles verte/orange** : trier les cartes maîtrisées et les cartes à revoir pendant la session
 - **Synthèse vocale** : écouter la prononciation japonaise (TTS natif Android)
