@@ -70,6 +70,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 | Build | Gradle (KTS), KSP |
 | Min SDK | 24 (Android 7.0) |
 | Target SDK | 36 |
+> Tests unitaires : logique de progression, gestion des états offline/online, fusion des données.
 
 **Permission requise :** `INTERNET` (synchronisation de progression et téléchargement des modules)
 
