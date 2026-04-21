@@ -22,7 +22,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 ## ✨ Fonctionnalités
 
 ### Accessible sans compte
-- **Listes par défaut** : hiragana, katakana, combinaisons, animaux, couleurs, visage, corps, sports (plus de 400 cartes incluses)
+- **Listes par défaut** : vocabulaire (animaux, couleurs, visage, corps, sports, boissons, fruits, légumes, transports) + kana (hiragana, katakana, tous les kana) — plus de 500 cartes incluses
 - **Listes personnalisées** : créer, renommer, supprimer, réordonner ses propres listes par glisser-déposer
 - **Cartes personnalisées** : ajouter français, kana, kanji, une phrase exemple et une image
 - **Sessions de révision** : choix du sens (FR→JP ou JP→FR), animation de retournement de carte
@@ -102,6 +102,7 @@ app/src/main/java/com/isshoni/flashcards/
 ## 💡 Défis techniques notables
 - Synchronisation de progression offline/online avec gestion des conflits
 - Persistance de progression entre sessions imbriquées, nécessitant une analyse fine du cycle de vie du ViewModel et de la fusion des états dans le Repository
+- Composition IME japonaise et recherche réactive
 - Chiffrement des tokens d'authentification avec EncryptedSharedPreferences
 - Animation Canvas personnalisée (pétales de sakura)
 - Drag & drop sur listes avec persistance de l'ordre
