@@ -103,6 +103,7 @@ app/src/main/java/com/isshoni/flashcards/
 - Synchronisation de progression offline/online avec gestion des conflits
 - Persistance de progression entre sessions imbriquées, nécessitant une analyse fine du cycle de vie du ViewModel et de la fusion des états dans le Repository
 - Composition IME japonaise et recherche réactive
+- Recherche multilingue et collation MySQL
 - Chiffrement des tokens d'authentification avec EncryptedSharedPreferences
 - Animation Canvas personnalisée (pétales de sakura)
 - Drag & drop sur listes avec persistance de l'ordre
