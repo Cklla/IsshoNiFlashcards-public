@@ -17,11 +17,9 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 [<img src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png" height="70">](https://play.google.com/store/apps/details?id=com.isshoni.flashcards)
 
 ### iOS — Kotlin Multiplatform
-![KMP](https://img.shields.io/badge/Kotlin_Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![KMP](https://img.shields.io/badge/Kotlin_Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Compose Multiplatform](https://img.shields.io/badge/Compose_Multiplatform-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![SQLDelight](https://img.shields.io/badge/SQLDelight-FF6F00?style=for-the-badge&logo=sqlite&logoColor=white)
-![Ktor](https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge&logo=ktor&logoColor=white)
 ![Licence propriétaire](https://img.shields.io/badge/Licence-Propri%C3%A9taire-red?style=for-the-badge)
 
 *Publication App Store à venir*
@@ -164,7 +162,7 @@ iosApp/                     # Wrapper Xcode (Swift minimal)
 
 - Migration Android → Kotlin Multiplatform : Room → SQLDelight, Retrofit → Ktor, `expect/actual` pour TTS, Keychain, drivers SQLite
 - Synchronisation de progression offline/online avec gestion des conflits
-- Persistance de progression entre sessions imbriquées, analyse fine du cycle de vie ViewModel
+- Persistance de progression entre sessions imbriquées, analyse fine du cycle de vie du ViewModel
 - Composition IME japonaise et recherche réactive multilingue
 - Chiffrement des tokens d'authentification (EncryptedSharedPreferences / Keychain)
 - Animation Canvas personnalisée (pétales de sakura)
