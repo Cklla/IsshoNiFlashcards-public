@@ -1,17 +1,34 @@
 # Issho Ni Flashcards
 
+Application d'apprentissage et de révision du vocabulaire japonais, conçue pour les élèves de la formation **Issho Ni**. Elle propose un système de flashcards bilingues (français ↔ japonais) avec suivi de progression, listes personnalisées et synchronisation entre appareils.
+
+Une partie du contenu est librement accessible. L'accès aux modules de formation et à la synchronisation de progression nécessite d'être élève Issho Ni.
+
+---
+
+## Versions
+
+### Android
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Licence propriétaire](https://img.shields.io/badge/Licence-Propri%C3%A9taire-red?style=for-the-badge)
 
-Application Android d'apprentissage et de révision du vocabulaire japonais, conçue pour les élèves de la formation **Issho Ni**. Elle propose un système de flashcards bilingues (français ↔ japonais) avec suivi de progression, listes personnalisées et synchronisation entre appareils.
-
-Une partie du contenu est librement accessible. L'accès aux modules de formation et à la synchronisation de progression nécessite d'être élève Issho Ni.
-
 [<img src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png" height="70">](https://play.google.com/store/apps/details?id=com.isshoni.flashcards)
 
+### iOS — Kotlin Multiplatform
+![KMP](https://img.shields.io/badge/Kotlin_Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Compose Multiplatform](https://img.shields.io/badge/Compose_Multiplatform-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![SQLDelight](https://img.shields.io/badge/SQLDelight-FF6F00?style=for-the-badge&logo=sqlite&logoColor=white)
+![Ktor](https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge&logo=ktor&logoColor=white)
+![Licence propriétaire](https://img.shields.io/badge/Licence-Propri%C3%A9taire-red?style=for-the-badge)
+
+*Publication App Store à venir*
+
 ---
+
+## Aperçu
 
 | Accueil | Session de cartes | Mes listes |
 |---|---|---|
@@ -23,12 +40,12 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 
 ### Accessible sans compte
 - **Listes par défaut** : vocabulaire (animaux, couleurs, visage, corps, sports, boissons, fruits, légumes, transports) + kana (hiragana, katakana, tous les kana) — plus de 500 cartes incluses
-- **Listes personnalisées** : créer, renommer, supprimer, réordonner ses propres listes par glisser-déposer
-- **Cartes personnalisées** : ajouter français, kana, kanji, une phrase exemple et une image
+- **Listes personnalisées** : créer, renommer, supprimer, réordonner par glisser-déposer
+- **Cartes personnalisées** : français, kana, kanji, phrase exemple et image
 - **Sessions de révision** : choix du sens (FR→JP ou JP→FR), animation de retournement de carte
-- **Piles verte/orange** : trier les cartes maîtrisées et les cartes à revoir pendant la session
-- **Synthèse vocale** : écouter la prononciation japonaise (TTS natif Android)
-- **Favoris** : marquer n'importe quelle liste comme favorite pour y accéder rapidement
+- **Piles verte/orange** : trier les cartes maîtrisées et celles à revoir pendant la session
+- **Synthèse vocale** : écouter la prononciation japonaise
+- **Favoris** : accès rapide aux listes favorites
 - **Import / export** : sauvegarder et restaurer ses listes au format JSON
 - **Aide & légal** : tutoriel, politique de confidentialité, licences
 
@@ -52,59 +69,57 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 
 ## 🛠️ Stack technique
 
+### Android
+
 | Composant | Technologie |
 |---|---|
 | Langage | Kotlin 2.3.20 |
 | UI | Jetpack Compose + Material3 |
 | Navigation | Navigation Compose 2.9.7 |
-| Base de données locale | Room 2.8.4 |
+| Base de données | Room 2.8.4 |
 | Réseau | Retrofit 3.0.0 + OkHttp + Gson |
-| Stockage sécurisé | AndroidX Security Crypto 1.1.0-alpha06 (EncryptedSharedPreferences) |
+| Stockage sécurisé | EncryptedSharedPreferences (AndroidX Security Crypto) |
 | Préférences | DataStore Preferences 1.1.4 |
-| Chargement d'images | Coil 3.2.0 (coil-compose + coil-network-okhttp) |
+| Chargement d'images | Coil 3.2.0 |
 | Synthèse vocale | Android TTS natif |
 | Drag & drop | Reorderable 2.4.3 |
 | Tests | JUnit 4, MockK, kotlinx-coroutines-test |
-| Build | Gradle (KTS), KSP |
-| Min SDK | 24 (Android 7.0) |
-| Target SDK | 36 |
+| Min SDK | 24 (Android 7.0) / Target SDK 36 |
 
-**Permission requise :** `INTERNET` (synchronisation de progression et téléchargement des modules)
-
-## 🛠️ Stack technique (KMP)
+### iOS — Kotlin Multiplatform
 
 | Composant | Technologie |
 |---|---|
 | Langage | Kotlin 2.3.20 (K2) |
 | UI | Compose Multiplatform 1.8.0 + Material3 |
 | Navigation | Jetpack Navigation Compose 2.9.7 (multiplatform) |
-| Base de données locale | SQLDelight 2.0.2 |
+| Base de données | SQLDelight 2.0.2 |
 | Réseau | Ktor 3.1.3 + kotlinx.serialization 1.7.3 |
-| Stockage sécurisé | `expect/actual SecureStorage` → iOS : Keychain Services |
+| Stockage sécurisé | `expect/actual` → iOS : Keychain Services |
 | Préférences | multiplatform-settings 1.2.0 |
-| Chargement d'images | Coil 3.2.0 (coil-compose + coil-network-ktor3) |
-| Synthèse vocale | `expect/actual TtsPlayer` → iOS : AVSpeechSynthesizer |
-| Drag & drop | Reorderable 2.4.3 (sh.calvin.reorderable) |
+| Chargement d'images | Coil 3.2.0 (coil-network-ktor3) |
+| Synthèse vocale | `expect/actual` → iOS : AVSpeechSynthesizer |
+| Drag & drop | Reorderable 2.4.3 |
 | Logging | Napier 2.7.1 |
 | ViewModel | AndroidX Lifecycle 2.10.0 (multiplatform) |
 | Tests | JUnit 4, kotlinx-coroutines-test, Turbine, MockK |
-| Build | Gradle (KTS), KMP plugin, Compose Hot Reload 1.1.0 |
-| Targets | `iosX64`, `iosArm64`, `iosSimulatorArm64` (+ `androidTarget` dev) |
-| iOS minimum | iOS 15 |
-| Bundle ID iOS | `fr.isshoni.flashcards.ios` |
+| Targets | `iosX64`, `iosArm64`, `iosSimulatorArm64` |
+| iOS minimum | 17.2 |
 
 ---
 
 ## 📁 Structure du projet
 
+### Android
+
 ```
 app/src/main/java/com/isshoni/flashcards/
 │
 ├── data/
-│   ├── local/                          # Entités Room, DAOs, Database
-│   ├── remote/                         # API Retrofit, DTOs
-│   └── repository/                     # Source unique de vérité, gestion offline/online
-│       
+│   ├── local/          # Entités Room, DAOs, Database
+│   ├── remote/         # API Retrofit, DTOs
+│   └── repository/     # Source unique de vérité, gestion offline/online
+│
 ├── ui/
 │   ├── components/
 │   ├── navigation/
@@ -117,7 +132,7 @@ app/src/main/java/com/isshoni/flashcards/
     └── fonts/licences/
 ```
 
-## 📁 Structure du projet (KMP)
+### iOS — Kotlin Multiplatform
 
 ```
 composeApp/src/commonMain/
@@ -146,14 +161,17 @@ iosApp/                     # Wrapper Xcode (Swift minimal)
 ---
 
 ## 💡 Défis techniques notables
+
+- Migration Android → Kotlin Multiplatform : Room → SQLDelight, Retrofit → Ktor, `expect/actual` pour TTS, Keychain, drivers SQLite
 - Synchronisation de progression offline/online avec gestion des conflits
-- Persistance de progression entre sessions imbriquées, nécessitant une analyse fine du cycle de vie du ViewModel et de la fusion des états dans le Repository
-- Composition IME japonaise et recherche réactive
-- Recherche multilingue et collation MySQL
-- Chiffrement des tokens d'authentification avec EncryptedSharedPreferences
+- Persistance de progression entre sessions imbriquées, analyse fine du cycle de vie ViewModel
+- Composition IME japonaise et recherche réactive multilingue
+- Chiffrement des tokens d'authentification (EncryptedSharedPreferences / Keychain)
 - Animation Canvas personnalisée (pétales de sakura)
 - Drag & drop sur listes avec persistance de l'ordre
+- CI/CD GitHub Actions : compilation Kotlin/Native cross-platform depuis Linux, build iOS sur runner macOS
 
+---
 
 ## 🔒 Politique de confidentialité
 
