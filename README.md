@@ -69,9 +69,29 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 | Min SDK | 24 (Android 7.0) |
 | Target SDK | 36 |
 
-> Tests unitaires : logique de progression, gestion des états offline/online, fusion des données.
-
 **Permission requise :** `INTERNET` (synchronisation de progression et téléchargement des modules)
+
+## 🛠️ Stack technique (KMP)
+
+| Composant | Technologie |
+|---|---|
+| Langage | Kotlin 2.3.20 (K2) |
+| UI | Compose Multiplatform 1.8.0 + Material3 |
+| Navigation | Jetpack Navigation Compose 2.9.7 (multiplatform) |
+| Base de données locale | SQLDelight 2.0.2 |
+| Réseau | Ktor 3.1.3 + kotlinx.serialization 1.7.3 |
+| Stockage sécurisé | `expect/actual SecureStorage` → iOS : Keychain Services |
+| Préférences | multiplatform-settings 1.2.0 |
+| Chargement d'images | Coil 3.2.0 (coil-compose + coil-network-ktor3) |
+| Synthèse vocale | `expect/actual TtsPlayer` → iOS : AVSpeechSynthesizer |
+| Drag & drop | Reorderable 2.4.3 (sh.calvin.reorderable) |
+| Logging | Napier 2.7.1 |
+| ViewModel | AndroidX Lifecycle 2.10.0 (multiplatform) |
+| Tests | JUnit 4, kotlinx-coroutines-test, Turbine, MockK |
+| Build | Gradle (KTS), KMP plugin, Compose Hot Reload 1.1.0 |
+| Targets | `iosX64`, `iosArm64`, `iosSimulatorArm64` (+ `androidTarget` dev) |
+| iOS minimum | iOS 15 |
+| Bundle ID iOS | `fr.isshoni.flashcards.ios` |
 
 ---
 
@@ -96,6 +116,30 @@ app/src/main/java/com/isshoni/flashcards/
 └── assets/
     └── fonts/licences/
 ```
+
+## 📁 Structure du projet (KMP)
+
+composeApp/src/commonMain/
+│
+├── data/
+│   ├── local/          # SQLDelight (schémas .sq, SecureStorage, FileOps)
+│   ├── remote/         # Ktor (NetworkModule, modèles API)
+│   └── repository/     # Logique métier, sync serveur, import/export
+│
+├── ui/
+│   ├── components/     # Composants réutilisables (dialogs, boutons, animations)
+│   ├── navigation/     # Routes typées
+│   ├── screens/        # Écrans (home, flashcards, formation, login…)
+│   ├── theme/          # Couleurs, typographies, Material3
+│   ├── tts/            # Synthèse vocale + lecture audio (expect)
+│   └── viewmodels/     # HomeViewModel, FlashcardViewModel, SearchViewModel
+│
+└── composeResources/   # Drawables, fonts (Dekko, Modak, Naikai)
+
+composeApp/src/iosMain/     # actual iOS : Keychain, Darwin, AVFoundation
+composeApp/src/androidMain/ # actual Android : dev uniquement, non publié
+
+iosApp/                     # Wrapper Xcode (Swift minimal)
 
 ---
 
