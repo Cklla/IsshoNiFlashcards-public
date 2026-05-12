@@ -119,6 +119,7 @@ app/src/main/java/com/isshoni/flashcards/
 
 ## 📁 Structure du projet (KMP)
 
+```
 composeApp/src/commonMain/
 │
 ├── data/
@@ -140,6 +141,7 @@ composeApp/src/iosMain/     # actual iOS : Keychain, Darwin, AVFoundation
 composeApp/src/androidMain/ # actual Android : dev uniquement, non publié
 
 iosApp/                     # Wrapper Xcode (Swift minimal)
+```
 
 ---
 
