@@ -96,7 +96,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 | Stockage sécurisé | `expect/actual` → iOS : Keychain Services |
 | Préférences | multiplatform-settings 1.2.0 |
 | Chargement d'images | Coil 3.2.0 (coil-network-ktor3) |
-| Synthèse vocale | Google Cloud TTS (Chirp 3 HD & Neural2) + expect/actual → AVAudioPlayer / MediaPlayer · Fallback natif AVSpeechSynthesizer / Android TTS |
+| Synthèse vocale | Google Cloud TTS (Chirp 3 HD & Neural2) + `expect/actual` → AVAudioPlayer / MediaPlayer · Fallback natif AVSpeechSynthesizer / Android TTS |
 | Drag & drop | Reorderable 2.4.3 |
 | Logging | Napier 2.7.1 |
 | ViewModel | AndroidX Lifecycle 2.10.0 (multiplatform) |
