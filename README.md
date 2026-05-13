@@ -55,13 +55,13 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 
 ## 🎴 Retournement de carte
 
-![Retournement de carte](screenshots/gif_flashcard_flip.gif)
+![Retournement de carte](screenshots/webp_flashcard_flip.webp)
 
 ---
 
 ## 🌸 Animation sakura
 
-![Animation sakura](screenshots/gif_sakura.gif)
+![Animation sakura](screenshots/webp_sakura.webp)
 
 ---
 
