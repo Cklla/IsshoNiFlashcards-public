@@ -79,7 +79,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 | Stockage sécurisé | EncryptedSharedPreferences (AndroidX Security Crypto) |
 | Préférences | DataStore Preferences 1.1.4 |
 | Chargement d'images | Coil 3.2.0 |
-| Synthèse vocale | Android TTS natif |
+| Synthèse vocale | Google Cloud TTS (Chirp 3 HD & Neural2) + Android TTS natif (fallback) |
 | Drag & drop | Reorderable 2.4.3 |
 | Tests | JUnit 4, MockK, kotlinx-coroutines-test |
 | Min SDK | 24 (Android 7.0) / Target SDK 36 |
@@ -96,7 +96,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 | Stockage sécurisé | `expect/actual` → iOS : Keychain Services |
 | Préférences | multiplatform-settings 1.2.0 |
 | Chargement d'images | Coil 3.2.0 (coil-network-ktor3) |
-| Synthèse vocale | `expect/actual` → iOS : AVSpeechSynthesizer |
+| Synthèse vocale | Google Cloud TTS (Chirp 3 HD & Neural2) + expect/actual → AVAudioPlayer / MediaPlayer · Fallback natif AVSpeechSynthesizer / Android TTS |
 | Drag & drop | Reorderable 2.4.3 |
 | Logging | Napier 2.7.1 |
 | ViewModel | AndroidX Lifecycle 2.10.0 (multiplatform) |
