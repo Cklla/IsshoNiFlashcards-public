@@ -14,7 +14,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Licence propriétaire](https://img.shields.io/badge/Licence-Propri%C3%A9taire-red?style=for-the-badge)
 
-[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png" height="70">](https://play.google.com/store/apps/details?id=com.isshoni.flashcards)
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png" height="70">](https://play.google.com/store/apps/details?id=fr.isshoni.cards)
 
 ### iOS — Kotlin Multiplatform
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
