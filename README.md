@@ -1,6 +1,6 @@
 # Issho Ni Flashcards
 
-Application d'apprentissage et de révision du japonais, conçue pour les élèves de la formation **Issho Ni**. Elle propose un système de flashcards bilingues (français ↔ japonais) et un mode d'écriture manuscrite de kanji et kana, avec suivi de progression, listes personnalisées et synchronisation entre appareils.
+Application d'apprentissage et de révision du vocabulaire japonais et des kanji, conçue pour les élèves de la formation **Issho Ni**. Elle propose un système de flashcards bilingues (français ↔ japonais) et un mode d'écriture manuscrite de kanji et kana, avec suivi de progression, listes personnalisées et synchronisation entre appareils.
 
 Une partie du contenu est librement accessible. L'accès aux modules de formation et à la synchronisation de progression nécessite d'être élève Issho Ni.
 
