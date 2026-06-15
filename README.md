@@ -55,7 +55,7 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 ### Écriture de kanji et kana
 
 #### Accessible sans compte
-- **Listes d'entraînement** : Hiragana (46 caractères), Katakana (46 caractères) et Kanji basiques (103 kanji du N5)
+- **Listes d'entraînement** : Hiragana (71 caractères), Katakana (71 caractères) et Kanji basiques (103 kanji du JLPT N5)
 - **Listes personnalisées de kanji** : créer ses propres listes depuis un dictionnaire intégré de milliers de kanji
 - **Écriture manuscrite** : tracer les traits un par un sur un canvas, avec validation géométrique en temps réel
 - **Dictionnaire KANJIDIC2** : recherche par kanji, lecture kana ou traduction française, avec lectures kun/on complètes
