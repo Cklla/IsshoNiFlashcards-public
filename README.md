@@ -216,6 +216,6 @@ Ce logiciel est distribué sous licence propriétaire. Tous droits réservés �
 
 Toute reproduction, modification ou redistribution est interdite sans autorisation écrite explicite.
 
-Les polices utilisées (Dekko, Modak, Noto Sans JP) sont distribuées sous [licence OFL](https://openfontlicense.org).
+Les polices utilisées (Dekko, Modak, Noto Sans JP, Naikai Font) sont distribuées sous [licence OFL](https://openfontlicense.org).
 Les données de tracés sont issues de [KanjiVG](https://kanjivg.tagaini.net/) (CC BY-SA 3.0).
 Le dictionnaire de kanji est basé sur [KANJIDIC2](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) (CC BY-SA 4.0, EDRDG).
