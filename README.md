@@ -20,9 +20,10 @@ Une partie du contenu est librement accessible. L'accès aux modules de formatio
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![KMP](https://img.shields.io/badge/Kotlin_Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Compose Multiplatform](https://img.shields.io/badge/Compose_Multiplatform-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Accès anticipé](https://img.shields.io/badge/Accès_anticipé-TestFlight-0D96F6?style=for-the-badge&logo=apple&logoColor=white)
 ![Licence propriétaire](https://img.shields.io/badge/Licence-Propri%C3%A9taire-red?style=for-the-badge)
 
-*Publication App Store à venir*
+[<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="70">](https://testflight.apple.com/join/37q88QX8)
 
 ---
 
